@@ -1,0 +1,1 @@
+DELETE http://localhost:3000/reseptit/61b4c209a8b93b82ee917924

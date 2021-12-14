@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bull Text',Helvetica,sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.navi {
+    /* background-color: blueviolet; */
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    padding-bottom: 15px;
+    background-color: #00162b;
+}
+
+.button1 {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid white;
+    margin-top: 20px;
+    background-color: #051f38;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.button1 a:visited {
+    color:white;
+}
+
+
+
+.etsiReseptit h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.etsiReseptit p {
+    text-align: center;
+}
+
+.button1:hover {
+    box-shadow: 0px 0px 1px 2px white;
+    color: white;
+}
+
+
+.ekaDiv {
+    /* border: 1px solid black; */
+    text-align: center;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.submitReseptit h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.submitReseptit p {
+    text-align: center;
+}
+
+.postausKontti {
+    height: auto;
+    margin: 25px auto;
+    padding-top: 10px;
+    width: 500px;
+    display: table;
+}
+
+.form-control {
+    width: 200px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: width .45s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.form-submit {
+    width: 480px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px grey;
+    height: 80px;
+}
+
+.button4 {
+    height: 37px;
+    width: 120px;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.button4:hover {
+    border-radius: 30px;
+    border-style: none;
+    border: 1px solid black;
+}
+
+.form-control:focus {
+    width: 400px;
+}
+
+.button2 {
+    height: 37px;
+    width: 120px;
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.button2:hover {
+    border-radius: 30px;
+    border-style: none;
+    border: 1px solid black;
+}
+
+.grid h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.grid p {
+    text-align: center;
+}
+
+.grid h3 {
+    text-align: center;
+    text-shadow: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1rem;
+    list-style: none;
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.liItem {
+    word-wrap: break-word;
+    box-shadow: 1px 1px 5px grey;
+    padding: 5px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.liItem h2 {
+    color: black;
+    font-size: 1.6rem;
+}
+
+
+.liItem p {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.liItem h3 {
+    color: black;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+
+/* Kuva */
+.lol {
+    max-width: 100%;
+    min-height: 350px;
+    height: auto;
+    box-shadow: 1px 1px 5px black;
+}
+
+.boksiKontti {
+    /* border: 3px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.boksiKontti a:visited {
+    color: white;
+}
+
+
+.ekaBoksi {
+    width: 400px;
+    height: 600px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px grey;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-image: url(img/Pääruoat.jpg);
+    background-size: cover;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.ekaBoksi h2 {
+    position: relative;
+    top: 42%;
+}
+
+.ekaBoksi:hover {
+    border: 1px solid grey;
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px grey;
+    text-decoration: underline;
+}
+.tokaBoksi {
+    width: 400px;
+    height: 600px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px grey;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    background-image: url(img/Jälkkäri.jpg);
+    background-size: cover;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.tokaBoksi h2 {
+    position: relative;
+    top: 42%;
+}
+
+.tokaBoksi:hover {
+    border: 1px solid grey;
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px grey;
+    text-decoration: underline;
+}
+
+.kolmasBoksi {
+    width: 400px;
+    height: 600px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px grey;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    background-image: url(img/Juoma.jpg);
+    background-size: cover;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.kolmasBoksi h2 {
+    position: relative;
+    top: 42%;
+}
+
+.kolmasBoksi:hover {
+    border: 1px solid grey;
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px grey;
+    text-decoration: underline;
+}
+
+.footer {
+    height: 100px;
+    background-color: #00162b;
+    text-align: center;
+}
+
+.button3 {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid white;
+    margin-top: 25px;
+    background-color: #051f38;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button3 a:visited {
+    color: white;
+}
+
+.button3:hover {
+    box-shadow: 0px 0px 1px 2px white;
+    color: white;
+}
+
+.vasen {
+    float: left;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    margin: 5px;
+    position: relative;
+    top: 18px;
+}
+
+.oikea {
+    float: right;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    margin: 5px;
+    position: relative;
+    top: 18px;
+}
+
+@media only screen and (max-width: 400px) {
+    .navi {
+        /* background-color: blueviolet; */
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        height: 315px;
+        background-color: #00162b;
+    }
+    .form-control {
+        width: 200px;
+        height: 15px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        transition: width .45s ease-in-out;
+        margin-bottom: 10px;
+    }
+
+    
+    .form-control:focus {
+        width: 300px;
+    }
+
+    .form-submit {
+        max-width: 370px;
+        min-width: 360px;
+        width: auto;
+        margin: 10px;
+        box-shadow: 1px 1px 5px grey;
+    }
+
+    .postausKontti {
+        margin: 0 auto;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+
+    .footer {
+        height: 220px;
+    }
+
+    .form-control:focus {
+        width: 200px;
+    }
+}
+

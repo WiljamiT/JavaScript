@@ -1,0 +1,10 @@
+POST http://localhost:3000/reseptit
+Content-Type: application/json
+
+{
+    "name":"Kahvi",
+    "description":"Kaada keittimeen raikasta vettä ja aita suodatinpaperi paikalleen, mittaa suodatinpaperiin yksi kahvimitta kahvia yhtä kupillista kohden. Käynnistä kahvinkeitin ja anna tippua loppuun asti.",
+    "category": ["Jälkiruoka", "Juomat"],
+    "thumbnail":"img/Kahvi.jpg",
+    "ingredients":"Vesi, kahvipuruja, maito"
+}

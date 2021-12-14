@@ -1,0 +1,6 @@
+PATCH http://localhost:3000/reseptit/61b4c4131bd1accb24dcac16 
+Content-Type: application/json
+
+{
+    "name": "PIRTELÖ ISOLLA"
+}
