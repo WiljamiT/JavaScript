@@ -3,6 +3,10 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3000;
+
+app.get('/', function (req, res) {
+    res.sendFile(__dirname + '/index.html');
+});
 // yhteys eri porteista ja domaineista
 app.use(cors());
 app.use(express.json()); // muuttaa json stringin json objektiksi (pyynnöstä)
