@@ -1,7 +1,7 @@
 lataaJalkkari();
 
 async function lataaJalkkari() {
-    let response = await fetch('https://reseptit-app-heroku.herokuapp.com/juomat')
+    let response = await fetch('https://reseptit-app-heroku.herokuapp.com/reseptit/juomat')
     let data = await response.json()
     return data;
 }

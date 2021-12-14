@@ -7,7 +7,7 @@ function jokuFunktio() {
 // responsen fetchiin lisäys x
 
 async function hae(x) {
-    const response = await fetch(`https://reseptit-app-heroku.herokuapp.com/?q=${x}`)
+    const response = await fetch(`https://reseptit-app-heroku.herokuapp.com/reseptit/?q=${x}`)
     let data = await response.json();
     //console.log(data)
     let str = '<ul class="grid">';
