@@ -18,7 +18,7 @@ const mongoose = require('mongoose');
 const {
     response
 } = require('express');
-const mongoDB = 'mongodb+srv://wiljami:%23Perkele123@fsklusteri.se8og.mongodb.net/reseptit?retryWrites=true&w=majority'
+const mongoDB = 'mongodb+srv://wiljami:SALASANATÄHÄN@fsklusteri.se8og.mongodb.net/reseptit?retryWrites=true&w=majority'
 mongoose.connect(mongoDB, {
     useNewUrlParser: true,
     useUnifiedTopology: true
