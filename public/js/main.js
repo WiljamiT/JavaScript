@@ -2,9 +2,6 @@ function jokuFunktio() {
     let x = document.getElementById('etsintakentta').value;
     hae(x) 
 }
-// fokuFunktio inputin valuella haetaan respti tietokannasta
-
-// responsen fetchiin lisäys x
 
 async function hae(x) {
     const response = await fetch(`https://reseptit-app-heroku.herokuapp.com/reseptit/?q=${x}`)
