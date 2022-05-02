@@ -17,9 +17,6 @@
          <button class="button1"><a href="/index-jalkkari.html">Jälkiruoat</a></button>
          <button class="button1"><a href="/index-juoma.html">Juomat</a></button>
       </section>
-
-
-
       <section class="etsiReseptit">
          <h1>Reseptejä</h1>
          <p>Kirjoita hakukenttään ja paina etsi. Jättämällä kentän tyhjäksi, näät kaikki reseptit.</p>
@@ -28,30 +25,21 @@
             <button class="button2" onclick="jokuFunktio()"> Etsi </button>
          </div>
       </section>
-
-
-
-
-
       <section class="tulostaReseptit">
          <div id="reseptitContainer"></div>
       </section>
-
-
-
       <section class="submitReseptit">
-      <h1>Lisää resepti</h1>
-      <p>Kirjoita kenttiin ja lisää painamalla</p>
-            <form class="postausKontti" method="post" action="http://localhost:3000/reseptit">
-               <textarea class="form-submit" name="name" placeholder="Nimi (Pakollinen)"></textarea>
-               <textarea class="form-submit" name="description" placeholder="Ohjeet (Pakollinen)"></textarea>
-               <textarea class="form-submit" name="category" placeholder="Kategoria (Pakollinen)"></textarea>
-               <textarea class="form-submit" name="thumbnail" placeholder='Kuva (Pakollinen) esim "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Maksalaatikko_-_liver_casserole.jpg/600px-Maksalaatikko_-_liver_casserole.jpg"'></textarea>
-               <textarea class="form-submit" name="ingredients" placeholder="Ainekset (Pakollinen)"></textarea>
-               <button class="button4">Lisää resepti!</button>
-            </form>
-         </section>
-         
+         <h1>Lisää resepti</h1>
+         <p>Kirjoita kenttiin ja lisää painamalla</p>
+         <form class="postausKontti" method="post" action="http://localhost:3000/reseptit">
+            <textarea class="form-submit" name="name" placeholder="Nimi (Pakollinen)"></textarea>
+            <textarea class="form-submit" name="description" placeholder="Ohjeet (Pakollinen)"></textarea>
+            <textarea class="form-submit" name="category" placeholder="Kategoria (Pakollinen)"></textarea>
+            <textarea class="form-submit" name="thumbnail" placeholder='Kuva (Pakollinen) esim "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Maksalaatikko_-_liver_casserole.jpg/600px-Maksalaatikko_-_liver_casserole.jpg"'></textarea>
+            <textarea class="form-submit" name="ingredients" placeholder="Ainekset (Pakollinen)"></textarea>
+            <button class="button4">Lisää resepti!</button>
+         </form>
+      </section>
       <section class="reseptitValikko">
          <div class="boksiKontti">
             <div class="ekaBoksi">
